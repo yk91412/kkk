@@ -14,14 +14,22 @@ random.shuffle은 원본자체를 바꾼다(원본을 무작위로 섞는다)
   - 일반적인 문자열 연산
 
     string.ascii_letters 대소문자 상수 이어붙인 것
+    
     string.ascii_lowercase 소문자 전체
+    
     string.ascii_uppercase 대문자 전체
+    
     string.digits 0~9
+    
     string.punctuation !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~. -> 특수기호
+    
     string.whitespace 공백으로 간주하는 문자 포함
     ex ) 스페이스, 탭, 줄바꿈...
-    string.hexdigits 16진수에 포함하는 0~9a~fA~F
+    
+    string.hexdigits 16진수에 포함하는 0 ~ 9 a ~ f A ~ F
+    
     stirng.octdigits 8진수에 포함하는 0~7
+    
     string.pritable 숫자대소문자특수기호공백의 조합
 
     ! string.ascii_letters를 활용했으면 대소문자를 일일이 적을 필요가 없었다
